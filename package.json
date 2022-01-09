@@ -1,0 +1,22 @@
+{
+  "name": "faz-code-smarth.contract",
+  "version": "1.0.0",
+  "description": "networks port: 7545\r network_id: \"5777\"\r  compile version: \"0.8.6\"\r ### truffle compile\r ### truffle migrate\r ### truffle deploy =  truffle compile + truffle migrate",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.4.2",
+    "bootstrap": "^5.1.3",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
